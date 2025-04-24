@@ -1,0 +1,8 @@
+[
+    { "name": "Bitcoin", "logo": "./images/logo/bitcoin.png" },
+    { "name": "ethereum", "logo": "./images/logo/ethereum.png" },
+    { "name": "tether", "logo": "./images/logo/tether.png" },
+    { "name": "xrp", "logo": "./images/logo/xrp.png" },
+    { "name": "bnb", "logo": "./images/logo/bnb.png" },
+    { "name": "solana", "logo": "./images/logo/solana.png" }
+]
