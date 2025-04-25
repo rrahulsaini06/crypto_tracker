@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .logo {
@@ -19,14 +20,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ecedf1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -40,4 +41,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+  }
+
+  table td {
+    display: block;
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 1rem;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* spacing between logo and name */
+}
+
+.company-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.company-name {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.App-header {
+  height: 100vh; /* 100% of viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
 }

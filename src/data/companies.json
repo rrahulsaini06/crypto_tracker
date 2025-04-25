@@ -1,8 +1,8 @@
 [
-    { "name": "Bitcoin", "logo": "./images/logo/bitcoin.png" },
-    { "name": "ethereum", "logo": "./images/logo/ethereum.png" },
-    { "name": "tether", "logo": "./images/logo/tether.png" },
-    { "name": "xrp", "logo": "./images/logo/xrp.png" },
-    { "name": "bnb", "logo": "./images/logo/bnb.png" },
-    { "name": "solana", "logo": "./images/logo/solana.png" }
+    { "name": "Bitcoin", "logo": "./images/logo/bitcoin.png","id":"c001" },
+    { "name": "ethereum", "logo": "./images/logo/ethereum.png","id":"c002" },
+    { "name": "tether", "logo": "./images/logo/tether.png" ,"id":"c003"},
+    { "name": "xrp", "logo": "./images/logo/xrp.png","id":"c004" },
+    { "name": "bnb", "logo": "./images/logo/bnb.png","id":"c005" },
+    { "name": "solana", "logo": "./images/logo/solana.png","id":"c006" }
 ]
